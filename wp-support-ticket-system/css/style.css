@@ -1,0 +1,48 @@
+/* Estilos generales */
+.wpsts-form {
+    margin-bottom: 20px;
+}
+
+.wpsts-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wpsts-form input[type="text"],
+.wpsts-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wpsts-form input[type="submit"] {
+    background-color: #0073aa; /* Color típico de WordPress */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wpsts-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+#ticket-message .success {
+    color: #46b450;
+    padding: 10px;
+    background-color: #ecf7ed;
+    border: 1px solid #46b450;
+    border-radius: 4px;
+}
+
+#ticket-message .error {
+    color: #dc3232;
+    padding: 10px;
+    background-color: #fbeaea;
+    border: 1px solid #dc3232;
+    border-radius: 4px;
+}

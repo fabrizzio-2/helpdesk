@@ -1,0 +1,11 @@
+{
+  "name": "wp-support-ticket-system",
+  "version": "1.0.0",
+  "description": "Plugin de WordPress para sistema de tickets de soporte",
+  "scripts": {
+    "package": "node create-zip.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  }
+}
